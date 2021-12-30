@@ -1,0 +1,43 @@
+* {box-sizing:border-box;}
+
+@font-face {
+  font-family: customFont;
+  src: url(Roboto-Regular.ttf);
+}
+body {
+  background:	#eab0dc;
+  font-family:  customFont, "Roboto Mono", monospace; /*", monospace, "Comic Sans", "Papyrus" */
+  color: #222222;
+  
+}
+
+#block_div{
+    background-color: transparent;
+    /*border: none; */
+    border-style: solid;
+    outline: none;
+    width: 640px;
+    height: 800px;
+    font-size: 35px;
+    line-height: 800px;
+}
+
+#text_span{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  /* consider justify with hyphens, but personally I think it's better without
+  text-align: justify;
+  hyphens: auto; */
+  padding: 30px;
+  
+  white-space: pre-line;
+}
+
+
+.content {
+  max-width: 900px;
+  margin: 30px auto;
+  padding:  20px 30px;
+  border-radius: 20px 20px 20px 20px;
+}
